@@ -1,12 +1,9 @@
-#include <iostream>
+#include <stdio.h>
 
-#define combine(N) N*(N-1)
+#define calc(N) N*(N-1)
 
-using namespace std;
-
-int main() {
-    int N;
-    cin >> N;
-
-    cout << combine(N);
+int main(){
+	int N;
+	scanf("%d",&N);
+	printf("%d",calc(N));
 }
